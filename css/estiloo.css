@@ -1,0 +1,39 @@
+img {
+    height: 80px;
+    padding: 10px 10px 0px 0px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+ul {
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+
+li {
+    width: 15%;
+    position: relative;
+    font-size: 2rem;
+}
+
+ul ul {
+    position: relative;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+    width: 200px;
+    padding: 10px;
+}
+
+ul ul li a {
+    color: black;
+}
+
+ul li:hover ul {
+    position: absolute;
+    display: block;
+    background-color: ghostwhite;
+    align-items: center;
+}

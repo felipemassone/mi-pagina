@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../desafio 4/css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <div id="grilla">
+    <header id="navegador1">
+        <img src="../desafio 4/assets/Logo para estudio de yoga minimalista azul (1).png" alt="logo">
+        <nav>
+            <ul class="stylelist">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./servicio.html">Servicio</a>
+                    <ul>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">publicidad</a></li>
+                    </ul>
+                </li>
+                <li><a href="./acerca-de.html">Acerca de</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./redes.html">Redes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="principal1">
+        <h1>Contacto</h1>
+        <h2>Galu studio</h2>
+    </section>
+    <!--Formulario para contacto-->
+        <article>
+            <form action="#">
+                <div>
+                        <label for="UserName">Nombre</label>
+                        <input type="text" name="UserName" id="UserName" class="field" required
+                            placeholder="Ingrese su nombre">
+                </div>
+                <div>
+                    <label for="usermail">Mail</label>
+                    <input type="email" name="usermail" id="usermail" class="field" required
+                        placeholder="ingrese su mail">
+                </div>
+                <div>
+                    <label for="usertext">Ingrese su mensaje</label>
+                    <textarea name="usertext" id="usertext" cols="30" rows="10" class="field"
+                        placeholder="Mensaje..."></textarea>
+                </div>
+                <div>
+                    <label for="condiciones">¿Queres recibir informacion?</label>
+                    <input type="radio" name="positivo" id="condiciones" value="Si" required>Si
+                    <input type="radio" name="negativo" id="condiciones" value="no" required>No
+                </div>
+                <div>
+                    <input type="submit" value="Enviar" class="btn btn-green">
+                    <input type="reset" value="Reinciar" class="btn btn-red">
+                </div>
+            </form>
+   
+    </article>
+    <footer id="piecompleto">
+        <h3>Galu studio</h3>
+        <img src="../desafio 4/assets/Logo para estudio de yoga minimalista azul (1).png" alt="logo">
+        <h4>@galu.studio</h4>
+    </footer>
+</div>
+</body>
+</html>
